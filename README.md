@@ -11,3 +11,20 @@ I want to know: which routes are most profitable, which drivers I should promote
 trending month by month, where our passengers come from, how much revenue cancellations are costing us,
 and what our busiest travel times are.
 Make it look professional. Present on Friday. The CEO will be in the room."_
+
+### Key Tech stack used
+1. PostgreSQL
+2. PowerBi
+
+### Step 1 : Loading and Cleaning the data
+- I loaded bookings table loaded in PostgreSQL. All 23 problems that were identified fixed in the staging table.
+- After cleaning the data, I created views that could answer businees problems raised by the CEO to help in making informed decisions for the company.
+
+### Step 2 : Loadind views in PowerBi and creating visualizations
+__How to Connect Power BI to PostgreSQL__
+1.	Open Power BI Desktop → click Get Data
+2.	Search for PostgreSQL → select it → Connect
+3.	Server: localhost   |   Database: postgres   |   Schema: safari_connect
+4.	Enter your PostgreSQL username and password
+5.	Select your views from the table list - use your v_ views, not raw tables
+6.	Click Load → your data is ready to visualise
