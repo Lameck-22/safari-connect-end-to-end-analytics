@@ -19,6 +19,14 @@ Make it look professional. Present on Friday. The CEO will be in the room."_
 ### Step 1 : Loading and Cleaning the data
 - I loaded bookings table loaded in PostgreSQL. All 23 problems that were identified fixed in the staging table.
 - After cleaning the data, I created views that could answer businees problems raised by the CEO to help in making informed decisions for the company.
+- Core analytical questions answered using SQL were:
+    1.	Route Analysis - Which routes earn the most? Which are most popular?	GROUP BY, SUM, COUNT, ORDER BY
+    2.	Driver Performance - Who are the best drivers? Who should be promoted?	GROUP BY, AVG, RANK window function
+    3.	Revenue Trends - How is revenue changing month by month?	CTE + LAG, DATE_TRUNC, running total
+    4. Passenger Insights - Who travels with us? Which cities, genders, seat classes?	GROUP BY, COUNT, CASE WHEN
+    5.	Cancellations - What is our cancellation rate and how much revenue did we lose?	bookings table, CASE WHEN, SUM
+    6.	Operational Patterns - What are our busiest days and times?	EXTRACT, TO_CHAR, GROUP BY, NTILE
+
 
 ### Step 2 : Loadind views in PowerBi and creating visualizations
 __How to Connect Power BI to PostgreSQL__
