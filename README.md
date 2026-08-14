@@ -19,7 +19,7 @@ Make it look professional. Present on Friday. The CEO will be in the room."_
 ### Step 1 : Loading and Cleaning the data
 - I loaded bookings table loaded in PostgreSQL. All 23 problems that were identified fixed in the staging table.
 - After cleaning the data, I created views that could answer businees problems raised by the CEO to help in making informed decisions for the company.
-- Core analytical questions answered using SQL were:
+- Core analytical questions answered using SQL were as below and the views created there after:
     1.	Route Analysis - Which routes earn the most? Which are most popular?	GROUP BY, SUM, COUNT, ORDER BY
     2.	Driver Performance - Who are the best drivers? Who should be promoted?	GROUP BY, AVG, RANK window function
     3.	Revenue Trends - How is revenue changing month by month?	CTE + LAG, DATE_TRUNC, running total
@@ -36,3 +36,7 @@ __How to Connect Power BI to PostgreSQL__
 4.	Enter your PostgreSQL username and password
 5.	Select your views from the table list - use your v_ views, not raw tables
 6.	Click Load → your data is ready to visualise
+
+- After connecting the views, I created visualizations to help answer the key questions asked by the CEO.
+
+## Business insights and recommendations
