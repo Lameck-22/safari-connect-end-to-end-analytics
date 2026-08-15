@@ -37,6 +37,6 @@ __How to Connect Power BI to PostgreSQL__
 5.	Select your views from the table list - use your v_ views, not raw tables
 6.	Click Load → your data is ready to visualise
 
-- After connecting the views, I created visualizations to help answer the key questions asked by the CEO.
+- After connecting the views, I created visualizations together with interractive dashboards to help answer the key questions asked by the CEO.
 
 ## Business insights and recommendations
