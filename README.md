@@ -42,5 +42,6 @@ __How to Connect Power BI to PostgreSQL__
 ## Business insights and recommendations
 <img width="1920" height="862" alt="Screenshot 2026-08-15 132231" src="https://github.com/user-attachments/assets/b9fe939d-8a32-4ab0-a34c-1b707a47f389" />
 
+- Key insights generated
 <img width="1845" height="798" alt="Screenshot 2026-08-15 132155" src="https://github.com/user-attachments/assets/d8632967-6ed1-4c22-8de5-b95fcde23d89" />
 
